@@ -9,42 +9,71 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- tailwind customize -->
-     <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
-    
+    </script>
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- font awesome -->
-     <script src="https://kit.fontawesome.com/99ca888395.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/99ca888395.js" crossorigin="anonymous"></script>
 
 
 </head>
 
 <body>
-    <header>
-        <!-- nav sections -->
-        <nav>
 
-        </nav>
-        <!-- baner section -->
-        <div class="banner">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
-        </div>
+        <!-- HEADER SECTION -->
+        <header class="flex pt-10 mb-20">
 
-    </header>
-    <main>
+            <!-- text content -->
+            <div>
+                <h1 class="text-5xl md:text-7xl font-bold  ">it's good <br>tea time the <br>Tea House</h1>
+                <h3 class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit est
+                    necessitatibus tenetur obcaecati.</h3>
+                <br>
+                <button
+                    class="rounded-lg bg-gradient-to-r from-orange-400 to-red-500 px-5 py-3 text-white font-bold">Explore
+                    more <i class="fa-solid fa-arrow-up rotate-45 mx-1"></i></button>
+
+            </div>
+            <div>
+
+                <!-- image content -->
+                <div class="relative">
+                    <img class="w-full" src="images/banner.png" alt="">
+
+                </div>
+                <!-- card div -->
+
+                <div class=" absolute flex  items-center bg-white  shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded top-28 md:top-80  ">
+                    <!-- icon -->
+                    <div><i class="fa-solid fa-star"></i></div>
+
+                    <!-- text -->
+                    <div>
+                        <p>5.00</p>
+                        <p>pilot ratings</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+
 
     </main>
     <footer>
